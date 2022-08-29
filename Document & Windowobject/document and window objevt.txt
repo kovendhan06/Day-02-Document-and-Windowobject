@@ -1,0 +1,127 @@
+                                            
+
+
+                                                             Document and Window Object Model
+              
+
+                            In that following blog we can discussed about  the Differance between DOCUMENT and WINDOW OBJECT Model...
+    
+
+                            Document :
+                                         A Document object represents the HTML document that is displayes in that window.
+                                     The Document object has various properties that refer to other object which allow access to and modification of
+                                     document content.
+                                       
+                                     The way a document content is accessed and modified is called the Document Object Model or DOM.
+
+                                         Javsscript is a language with it's own Syntax and built in types.document is not defined in the Javascript
+                                     (also moreformally known as ECMA Script) specification.Document is provided as an object API by the 
+                                     Javascript "host" Enviroinment which in a webpage scenario is the user agent(also known as browser).
+
+                            The Document Object:
+
+                                          when an HTML document is loaded into a web browser it becomes a document object.the document objct is the 
+                                       root node of the HTML document.The document object is aproperty of the window object.
+                          
+                            Document Tree:
+                                          Each HTML document canactually be refered to as a document tree.we descripe the element in the tree like 
+                                       we would descripe a family tree.There are ancestors decendants,parents children and siblings.Itnis important to 
+                                       understand the document tree because the selectors use the document tree.
+
+
+                                                               Window Object
+                                         
+                                            The window object is supported by all browsers.It represents the browser window.All global Javascript Objects
+                                       functions and variables automatically become members of the window object.Global variables are properties of the
+                                       window object Global functions are methodw of the Window object.
+
+                           
+                            Methods of Window Object:
+                                             The important methods of Window object are follows:
+
+                                     method                                             description
+                                   
+                                     alert()                        Display the alert box containing message with ok buttton.
+                                  
+                                     confirm()                      Display the confirm dialog box containing message with ok and cancel button.
+                                       
+                                     Prompt()                       Display the dialogbox to get input from user.
+
+                                     open()                         Open the new window.
+
+                                     close()                        Close the current window.
+                                  
+                                     setTimeout()                   Perform actions after specified time like calling function evaluvating
+                                                                    expressions etc...
+
+                                           
+                                                    DIFFERANCE BETWEEN THE DOCUMENT AND WINDOW OBJECT
+     
+                                      DOCUMENT                                                      WINDOW OBJECT
+
+                          1. It represents any HTML document or Web page that is           It represents a browser window or frame that display the 
+                             loaded in the browser.                                        content of thw webpage.
+
+                          
+                          2. It is loaded inside the window.                                It is very first object that is loaded in the browser.
+
+                         
+                          3. It is object of window property .                              It is object of the browser.               
+
+
+                          4. All the tags,elements with attributes in HTML or                Global objects,functions and variables of javascript are
+                             part of the document.                                           member of the window object.
+                     
+                          5. The document is part of BOM(browser object)model                The window is part of BOM not DOM.
+                             and DOM (document object model).
+
+  
+                             syntax:                                                         syntax:                                                                                                      
+                                    document.propertyname                                           window.propertyname
+                           
+                              Example:                                                       Example:
+                                    document.title : will return the title                           window.innsheight : will return the height of the                                   
+                                    of the document.                                                 content area of the browser.
+                     
+
+                           
+
+
+
+                        
+
+
+
+                                               
+
+
+
+
+ 
+                                       
+
+
+
+
+
+
+
+                                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
